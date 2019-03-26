@@ -1,7 +1,7 @@
- #frozen_string_literal: true
+#frozen_string_literal: false
 
 class Users::SessionsController < Devise::SessionsController
-   before_action :configure_sign_in_params, only: [:create, :destroy]
+   before_action :configure_sign_in_params, only: [:create]
 
    GET /resource/sign_in
    def new

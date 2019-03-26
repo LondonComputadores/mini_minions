@@ -38,19 +38,21 @@
           <li class="nav-item">
             <a class="nav-link" href="#produtos">Produtos</a>
           </li>
-          <!--li class="nav-item">
+          
+          <button><%= link_to "SignUp", new_user_password_path, method: :get%></button>
+          <br>
+          <button><%= link_to "LogOut", destroy_user_session_path, method: :delete%></button>
+
+        </ul>
+        
+        <!------------------------Desativados----------------------------
+          li class="nav-item">
             <a href="" class="btn btn-primary btn-sm active" role="button" aria-pressed="true"></a>
           </li>
           <li class="nav-item">
             <a href="#login" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">LogIn</a>
-          </li-->
-          <%= link_to "SignUp", new_user_password_path, method: :get%>
-          <br>
-          <%= link_to "LogOut", destroy_user_session_path, method: :delete%>
-
-        </ul>
-        
-        
+          </li
+         ------------------------------------------------------------->
         
 
       </div>
