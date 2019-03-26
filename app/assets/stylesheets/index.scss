@@ -1,0 +1,71 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/*@import "bootstrap-sprockets";
+@import "bootstrap";*/
+
+.bg-light {
+    background-color: #f8f9fa!important;
+    box-shadow: 0 0 4px 2px black;
+}
+
+#page-top {
+    background-image: url("https://scubasanmateo.com/images250_/minion-clipart-print-2.jpg");
+}
+
+/* Minions Card Titles*/
+div > h5 {
+    text-align: center;
+}
+
+.card {
+    max-height: 25%;
+}
+
+/*footer endereço */
+.foot {
+    text-color: #f8f9fa;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.jumbotron {
+    background-color: rgb(11, 131, 243);
+    text-emphasis-color: #ffff;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#contact {
+    font-style: oblique;
+    font-size: medium;
+    padding-top: 10px;
+}
+
+.jumbotron2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: yellow;
+}
+
+#sobre {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align-last: center;
+    padding-bottom: 30px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+.logo {
+    position: absolute;
+    background-color: yellow;
+    
+}
+
+.link {
+    padding-right: 2px;
+}
